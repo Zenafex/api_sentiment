@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const API_URL = 'https://api-inference.huggingface.co/models/finiteautomata/beto-sentiment-analysis';
-const API_KEY = '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'; // Reemplaza con tu clave de API
+const API_KEY = ''; // Reemplaza con tu clave de API
 
 interface SentimentAnalysisRequest {
   inputs: string;
